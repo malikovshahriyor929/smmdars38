@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container1 py-5 flex items-center gap-6 justify-between">
+        <div class="flex items-center gap-7">
+          <img src="./assets/svg/logo.svg" alt="" />
+          <input id="check" type="checkbox" />
+          <ul class="links flex gap-7 items-center font-normal">
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Преимущества</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <label
+              class="hidden max-[780px]:block check top-[30px] right-[30px] absolute"
+              for="check"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+            <button class="hidden max-[456px]:block">Войти</button>
+            <a href="./index2.html">
+              <button
+              class="rounded-[6px] py-3 px-6 bg-[#1d4ed8] text-white font-medium border-primary-0 hover:bg-white border-2 hover:border-[#1d4ed8] hover:text-[#1d4ed8] duration-500 max-[780px]:py-1 max-[780px]:px-4 max-[380px]:block hidden"
+            >
+              Быстрый заказ
+            </button>
+            </a>
+          </ul>
+        </div>
+        <div class="flex gap-5 items-center">
+          <button class="max-[456px]:hidden">Войти</button>
+         <a href="./index2.html">
+          <button
+          class="rounded-[6px] py-3 px-6 bg-[#1d4ed8] text-white font-medium border-primary-0 hover:bg-white border-2 hover:border-[#1d4ed8] hover:text-[#1d4ed8] duration-500 max-[780px]:py-1 max-[780px]:px-4 max-[380px]:hidden"
+        >
+          Быстрый заказ
+        </button>
+         </a>
+          <label class="bar hidden pr-2 max-[780px]:block" for="check">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <section class="mt-10">
+      <div
+        class="container1 grid grid-cols-2 gap-0 max-[870px]:grid-cols-1 items-center"
+      >
+        <div
+          class="flex flex-col gap-5 items-start max-[870px]:items-center max-[870px]:text-center"
+        >
+          <h1
+            class="text-[46px] font-semibold max-w-[626px] max-[500px]:text-[30px]"
+          >
+            Продвижение во всех соцсетях за пару кликов
+          </h1>
+          <p class="text-[20px] font-normal max-w-[685px]">
+            Получайте подписчиков, лайки, репосты, просмотры, прослушивания и
+            любую другую активность на свои профили в социальных сетях по самым
+            низким ценами на рынке и в самые быстрые сроки!
+          </p>
+          <button
+            class="rounded-[6px] py-3 px-6 bg-[#1d4ed8] text-white font-medium border-primary-0 hover:bg-white border-2 hover:border-[#1d4ed8] hover:text-[#1d4ed8] duration-700 max-[780px]:py-1 max-[780px]:px-4"
+          >
+            Начать продвижение
+          </button>
+        </div>
+        <div
+          class="max-[986px]:ml-[-50px] max-[870px]:items-center max-[870px]:ml-0 max-[870px]:mt-[-50px] max-[320px]:mt-7"
+        >
+          <img src="./assets/svg/showcase.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-primary2-0 py-10">
+      <h1 class="text-[36px] font-semibold text-white text-center mb-5">
+        Быстрый заказ
+      </h1>
+      <div class="container1">
+        <div class="bg-white p-3 rounded-[10px] overflow-x-auto">
+          <div class="flex items-center gap-5 w-[1181px] justify-between">
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/insta.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">Instagram</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s2.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">VK</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s3.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">TikTok</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s4.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">Telegram</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s5.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">YouTube</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s6.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">Facebook</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s7.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">Twitter</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s8.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">Twitch</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/svg/s9.svg" alt="" />
+              <p class="text-[18px] text-[#1c1c1f] font-medium">RuTube</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-5 mt-5 gap-5 max-[1260px]:grid-cols-4 max-[947px]:grid-cols-3 max-[736px]:grid-cols-2 max-[476px]:grid-cols-1"
+        >
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/🙋_♂️_.png" alt="" />
+            <p class="text-[20px] font-medium">Подписчики</p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/❤️.png" alt="" />
+            <p class="text-[20px] font-medium">Лайки</p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/👀.png" alt="" />
+            <p class="text-[20px] font-medium">Просмотры</p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/💬.png" alt="" />
+            <p class="text-[20px] font-medium">Комментарии</p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/📷.png" alt="" />
+            <p class="text-[20px] font-medium">Просмотры</p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/💁_♀️.png" alt="" />
+            <p class="text-[20px] font-medium text-center">
+              Зрители в прямой эфир
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/📈.png" alt="" />
+            <p class="text-[20px] font-medium">Статистика</p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/🎬.png" alt="" />
+            <p class="text-[20px] font-medium">IGTV</p>
+          </div>
+          <div
+            class="bg-white rounded-xl flex-col flex gap-3 items-center justify-center p-10"
+          >
+            <img src="./assets/img/💥.png" alt="" />
+            <p class="text-[20px] font-medium">Reels</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-10">
+      <div class="container1">
+        <h1 class="text-[36px] mb-5 font-semibold text-center max-[466px]:text-[28px]">
+          Отзывы клиентов
+        </h1>
+        <!-- <div
+          class="uk-position-relative uk-visible-toggle"
+          tabindex="-1"
+          uk-slider
+        >
+          <div
+            class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m gap-4 select-none"
+          >
+            <div>
+              <div class="bg-[#f8f8f9] p-10 rounded-xl mb-5">
+                <div class="flex items-center gap-1">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="bg-[#f8f8f9] p-10 rounded-xl">
+                <div class="flex items-center gap-1">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div>
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="bg-[#f8f8f9] p-10 rounded-xl">
+                  <div class="flex items-center gap-1">
+                    <img src="./assets/svg/avatar.svg" alt="" />
+                    <div>
+                      <p>Александр</p>
+                      <img src="./assets/svg/star.svg" alt="" />
+                    </div>
+                  </div>
+                  <p class="text-black">
+                    SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                    подписчиков и лайки, все прошло быстро и качественно, всем
+                    рекомендую!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="bg-[#f8f8f9] p-10 rounded-xl">
+                <div class="flex items-center gap-1">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div>
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="bg-[#f8f8f9] p-10 rounded-xl">
+                <div class="flex items-center gap-1">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div>
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="bg-[#f8f8f9] p-10 rounded-xl">
+                <div class="flex items-center gap-1">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div>
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="bg-[#f8f8f9] p-10 rounded-xl">
+                <div class="flex items-center gap-1">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div>
+                    <p class="mb-0">Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper select-none">
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-[#f8f8f9] p-10 rounded-xl max-[350px]:p-5">
+                <div class="flex items-center gap-1 mb-4">
+                  <img src="./assets/svg/avatar.svg" alt="" />
+                  <div class="flex flex-col leading-4 gap-2">
+                    <p>Александр</p>
+                    <img src="./assets/svg/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="text-black">
+                  SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                  подписчиков и лайки, все прошло быстро и качественно, всем
+                  рекомендую!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mt-10">
+      <div
+        class="container1 grid grid-cols-2 gap-0 max-[870px]:grid-cols-1 items-center bg-primary2-0 rounded-[40px] px-20 py-10 max-[542px]:px-10 max-[542px]:py-5 max-[542px]:max-w-max justify-between"
+      >
+        <div
+          class="flex flex-col gap-5 items-start max-[870px]:items-center max-[870px]:text-center"
+        >
+          <h1
+            class="text-[40px] font-semibold max-w-[499px] max-[500px]:text-[30px] text-white max-[342px]:text-[24px]"
+          >
+          Скидки до 50%
+          в нашем телеграм-канале
+          </h1>
+          <p class="text-[18px] font-normal max-w-[499px] text-white">
+            Раздаем промокоды в Telegram каждую неделю
+          </p>
+          <button
+            class="rounded-[6px] py-3 px-6 bg-[#2c75ff] text-white font-medium border-[#2c75ff] hover:bg-white border-2 hover:border-[#2c75ff] hover:text-[#2c75ff] duration-700 max-[780px]:py-1 max-[780px]:px-4"
+          >
+            Начать продвижение
+          </button>
+        </div>
+        <div
+          class="max-[986px]:ml-[-50px] max-[870px]:items-center max-[870px]:ml-0 max-[870px]:mt-[0px] max-[320px]:mt-7"
+        >
+          <img src="./assets/svg/Saly-2.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="my-10">
+      <div class="container1">
+        <h1 class="text-[36px] mb-5 font-semibold text-center max-[466px]:text-[28px]">
+          Отзывы клиентов
+        </h1>
+        <div class="grid grid-cols-2 gap-5 max-[554px]:grid-cols-1">
+          <div class="rounded-[10px]
+          py-[22px] px-[24px] bg-[#f8f8f9]">
+            <select class="bg-transparent w-[100%] text-ellipsis outline-none" name="" id="">
+              <option value="wq">Почему цены на ваши услуги ниже, чем у конкурентов?</option>
+            </select>
+          </div>
+          <div class="rounded-[10px]
+          py-[22px] px-[24px] bg-[#f8f8f9]">
+            <select class="bg-transparent w-[100%] text-ellipsis outline-none" name="" id="">
+              <option value="wq">Почему цены на ваши услуги ниже, чем у конкурентов?</option>
+            </select>
+          </div>
+          <div class="rounded-[10px]
+          py-[22px] px-[24px] bg-[#f8f8f9]">
+            <select class="bg-transparent w-[100%] text-ellipsis outline-none" name="" id="">
+              <option value="wq">Почему цены на ваши услуги ниже, чем у конкурентов?</option>
+            </select>
+          </div>
+          <div class="rounded-[10px]
+          py-[22px] px-[24px] bg-[#f8f8f9]">
+            <select class="bg-transparent w-[100%] text-ellipsis outline-none" name="" id="">
+              <option value="wq">Почему цены на ваши услуги ниже, чем у конкурентов?</option>
+            </select>
+          </div>
+          <div class="rounded-[10px]
+          py-[22px] px-[24px] bg-[#f8f8f9]">
+            <select class="bg-transparent w-[100%] text-ellipsis outline-none" name="" id="">
+              <option value="wq">Почему цены на ваши услуги ниже, чем у конкурентов?</option>
+            </select>
+          </div>
+          <div class="rounded-[10px]
+          py-[22px] px-[24px] bg-[#f8f8f9]">
+            <select class="bg-transparent w-[100%] text-ellipsis outline-none" name="" id="">
+              <option value="wq">Почему цены на ваши услуги ниже, чем у конкурентов?</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#f8f8f9] py-10">
+    <div class="container1 flex justify-between pr-5 max-[600px]:pr-0 gap-4 max-[968px]:grid max-[968px]:grid-cols-2 max-[968px]:gap-6 max-[530px]:gap-4 max-[530px]:grid-cols-1 ">
+      <div class="flex flex-col gap-3 items-start">
+        <img src="./assets/svg/logo.svg" alt="">
+        <p class="max-w-[332px]">SMMFLOW - сервис, где вы сможете приобрести качественное продвижение в социальных сетях по выгодным ценам.</p>
+        <img src="./assets/svg/visa.svg" alt="">
+      </div>
+      <div>
+        <ul class=" flex flex-col gap-2  font-normal">
+          <li><a class="hover:underline duration-700 transition-all" href="#">Каталог услуг</a></li>
+          <li><a class="hover:underline duration-700 transition-all" href="#">Преимущества</a></li>
+          <li><a class="hover:underline duration-700 transition-all" href="#">Отзывы</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class=" flex flex-col gap-2  font-normal">
+          <li><a class="hover:underline duration-700 transition-all" href="#">Политика конфиденциальности</a></li>
+          <li><a class="hover:underline duration-700 transition-all" href="#">Публичная оферта</a></li>
+          <li><a class="hover:underline duration-700 transition-all" href="#">Пользовательское соглашение</a></li>
+          <li><a class="hover:underline duration-700 transition-all" href="#">Правила сервиса</a></li>
+          <li><a class="hover:underline duration-700 transition-all" href="#">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class=" flex flex-col gap-2  font-normal">
+          <li><a class="font-medium" class="hover:underline duration-700 transition-all" href="#">Нужна помощь?</a></li>
+       <div class="bg-[#ebebeb] flex flex-col items-center py-[16px] px-[26px] rounded-[4px] ">
+        Онлайн-чат
+       </div>
+          <li><a href="mailto:support@smmflow.net">support@smmflow.net</a></li>
+        </ul>
+      </div>
+    </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          777: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1250: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
